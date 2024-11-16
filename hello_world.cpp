@@ -1,9 +1,13 @@
 #include <iostream>
-using namespace std;
 int main() {
-    string name;
-    cout << "Enter your name: ";
-    cin >> name;
-    cout << "Hello world from " << name << "!" << endl;
+	// Переменная для имени пользователя
+    std::string name;
+    std::cout << "Enter your name: ";
+	
+	// Ввод имени
+    std::cin >> name;
+	
+	// Вывод приветствия и имени
+    std::cout << "Hello world from " << name << "!" << std::endl;
     return 0;
 }
